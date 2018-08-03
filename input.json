@@ -1,0 +1,509 @@
+{
+  "a476092a.2c5a98": {
+    "id": "a476092a.2c5a98",
+    "name": "company",
+    "relation": {
+      "b3e3ea08.310fb8": {
+        "targetId": "a476092a.2c5a98",
+        "sourceId": "b3e3ea08.310fb8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "5f08921d.d56ecc": {
+        "targetId": "a476092a.2c5a98",
+        "sourceId": "5f08921d.d56ecc",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "test",
+      "aaa"
+    ]
+  },
+  "b3e3ea08.310fb8": {
+    "id": "b3e3ea08.310fb8",
+    "name": "physical",
+    "relation": {
+      "a77f269a.524078": {
+        "targetId": "b3e3ea08.310fb8",
+        "sourceId": "a77f269a.524078",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "5f08921d.d56ecc": {
+    "id": "5f08921d.d56ecc",
+    "name": "logical",
+    "relation": {
+      "96969400.8ee7d8": {
+        "targetId": "5f08921d.d56ecc",
+        "sourceId": "96969400.8ee7d8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "ttt"
+    ]
+  },
+  "a77f269a.524078": {
+    "id": "a77f269a.524078",
+    "name": "pod",
+    "relation": {
+      "6a6757a.b0ca2a8": {
+        "targetId": "a77f269a.524078",
+        "sourceId": "6a6757a.b0ca2a8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "7866879b.c20728": {
+        "targetId": "a77f269a.524078",
+        "sourceId": "7866879b.c20728",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "6a6757a.b0ca2a8": {
+    "id": "6a6757a.b0ca2a8",
+    "name": "spine2",
+    "relation": {
+      "b62e1857.a76fc8": {
+        "targetId": "6a6757a.b0ca2a8",
+        "sourceId": "b62e1857.a76fc8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "7866879b.c20728": {
+    "id": "7866879b.c20728",
+    "name": "spine1",
+    "relation": {
+      "318994aa.6f6afc": {
+        "targetId": "7866879b.c20728",
+        "sourceId": "318994aa.6f6afc",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "b62e1857.a76fc8": {
+    "id": "b62e1857.a76fc8",
+    "name": "leaf_2",
+    "relation": {},
+    "metric": [
+      "test"
+    ]
+  },
+  "318994aa.6f6afc": {
+    "id": "318994aa.6f6afc",
+    "name": "leaf1",
+    "relation": {
+      "b437e6f5.a79298": {
+        "targetId": "318994aa.6f6afc",
+        "sourceId": "b437e6f5.a79298",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "c159e77a.7a8588": {
+        "targetId": "318994aa.6f6afc",
+        "sourceId": "c159e77a.7a8588",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "eb66a740.ee5838": {
+        "targetId": "318994aa.6f6afc",
+        "sourceId": "eb66a740.ee5838",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "b437e6f5.a79298": {
+    "id": "b437e6f5.a79298",
+    "name": "port",
+    "relation": {
+      "eb66a740.ee5838": {
+        "targetId": "b437e6f5.a79298",
+        "sourceId": "eb66a740.ee5838",
+        "relation": {
+          "targetToSource": "host1",
+          "sourceToTarget": "port"
+        },
+        "relationKey": "",
+        "type": "custom",
+        "targetName": "host1"
+      },
+      "7e797934.7fcef8": {
+        "targetId": "b437e6f5.a79298",
+        "sourceId": "7e797934.7fcef8",
+        "relation": {
+          "targetToSource": "host2",
+          "sourceToTarget": "port"
+        },
+        "relationKey": "test",
+        "type": "custom",
+        "targetName": "host2"
+      }
+    },
+    "metric": [
+      "test"
+    ]
+  },
+  "c159e77a.7a8588": {
+    "id": "c159e77a.7a8588",
+    "name": "esx",
+    "relation": {
+      "7e797934.7fcef8": {
+        "targetId": "c159e77a.7a8588",
+        "sourceId": "7e797934.7fcef8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "eb66a740.ee5838": {
+    "id": "eb66a740.ee5838",
+    "name": "host1",
+    "relation": {},
+    "metric": [
+      "test"
+    ]
+  },
+  "7e797934.7fcef8": {
+    "id": "7e797934.7fcef8",
+    "name": "host2",
+    "relation": {
+      "a49e07f4.1dbaa8": {
+        "targetId": "7e797934.7fcef8",
+        "sourceId": "a49e07f4.1dbaa8",
+        "relation": {
+          "targetToSource": "epg2",
+          "sourceToTarget": "host2"
+        },
+        "relationKey": "test",
+        "type": "custom",
+        "targetName": "epg2"
+      }
+    },
+    "metric": [
+      "test"
+    ]
+  },
+  "96969400.8ee7d8": {
+    "id": "96969400.8ee7d8",
+    "name": "tenant",
+    "relation": {
+      "ef40777a.7a94d8": {
+        "targetId": "96969400.8ee7d8",
+        "sourceId": "ef40777a.7a94d8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "8a947052.9dfa4": {
+        "targetId": "96969400.8ee7d8",
+        "sourceId": "8a947052.9dfa4",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "ca4207e0.ea72b8": {
+        "targetId": "96969400.8ee7d8",
+        "sourceId": "ca4207e0.ea72b8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "ttt",
+      "aaa"
+    ]
+  },
+  "ef40777a.7a94d8": {
+    "id": "ef40777a.7a94d8",
+    "name": "business_service1",
+    "relation": {
+      "f3daefcb.caeba": {
+        "targetId": "ef40777a.7a94d8",
+        "sourceId": "f3daefcb.caeba",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "8a947052.9dfa4": {
+    "id": "8a947052.9dfa4",
+    "name": "business_service2",
+    "relation": {
+      "baa2b814.414ea8": {
+        "targetId": "8a947052.9dfa4",
+        "sourceId": "baa2b814.414ea8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "tes"
+    ]
+  },
+  "ca4207e0.ea72b8": {
+    "id": "ca4207e0.ea72b8",
+    "name": "epg_context",
+    "relation": {
+      "81379fd7.c43bb": {
+        "targetId": "ca4207e0.ea72b8",
+        "sourceId": "81379fd7.c43bb",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "a49e07f4.1dbaa8": {
+        "targetId": "ca4207e0.ea72b8",
+        "sourceId": "a49e07f4.1dbaa8",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "81379fd7.c43bb": {
+    "id": "81379fd7.c43bb",
+    "name": "epg1",
+    "relation": {},
+    "metric": [
+      "test"
+    ]
+  },
+  "a49e07f4.1dbaa8": {
+    "id": "a49e07f4.1dbaa8",
+    "name": "epg2",
+    "relation": {
+      "baa2b814.414ea8": {
+        "targetId": "a49e07f4.1dbaa8",
+        "sourceId": "baa2b814.414ea8",
+        "relation": {
+          "targetToSource": "db",
+          "sourceToTarget": "epg2"
+        },
+        "relationKey": "test",
+        "type": "custom",
+        "targetName": "db"
+      }
+    },
+    "metric": [
+      "test"
+    ]
+  },
+  "baa2b814.414ea8": {
+    "id": "baa2b814.414ea8",
+    "name": "db",
+    "relation": {
+      "37a4bbe4.80bce4": {
+        "targetId": "baa2b814.414ea8",
+        "sourceId": "37a4bbe4.80bce4",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      }
+    },
+    "metric": [
+      "tes",
+      "test"
+    ]
+  },
+  "f3daefcb.caeba": {
+    "id": "f3daefcb.caeba",
+    "name": "app",
+    "relation": {
+      "358c3bee.54bb44": {
+        "targetId": "f3daefcb.caeba",
+        "sourceId": "358c3bee.54bb44",
+        "relation": {
+          "targetToSource": "children",
+          "sourceToTarget": "parents"
+        },
+        "relationKey": "",
+        "type": "basic"
+      },
+      "81379fd7.c43bb": {
+        "targetId": "f3daefcb.caeba",
+        "sourceId": "81379fd7.c43bb",
+        "relation": {
+          "targetToSource": "epg1",
+          "sourceToTarget": "app"
+        },
+        "relationKey": "",
+        "type": "custom",
+        "targetName": "epg1"
+      },
+      "a49e07f4.1dbaa8": {
+        "targetId": "f3daefcb.caeba",
+        "sourceId": "a49e07f4.1dbaa8",
+        "relation": {
+          "targetToSource": "epg2",
+          "sourceToTarget": "app"
+        },
+        "relationKey": "test",
+        "type": "custom",
+        "targetName": "epg2"
+      }
+    },
+    "metric": [
+      "aaa",
+      "test"
+    ]
+  },
+  "358c3bee.54bb44": {
+    "id": "358c3bee.54bb44",
+    "name": "jvm",
+    "relation": {
+      "eb66a740.ee5838": {
+        "targetId": "358c3bee.54bb44",
+        "sourceId": "eb66a740.ee5838",
+        "relation": {
+          "targetToSource": "host1",
+          "sourceToTarget": "jvm"
+        },
+        "relationKey": "test",
+        "type": "custom",
+        "targetName": "host1"
+      }
+    },
+    "metric": [
+      "test"
+    ]
+  },
+  "37a4bbe4.80bce4": {
+    "id": "37a4bbe4.80bce4",
+    "name": "dbinstance",
+    "relation": {
+      "7e797934.7fcef8": {
+        "targetId": "37a4bbe4.80bce4",
+        "sourceId": "7e797934.7fcef8",
+        "relation": {
+          "targetToSource": "host2",
+          "sourceToTarget": "dbinstance"
+        },
+        "relationKey": "test",
+        "type": "custom",
+        "targetName": "host2"
+      }
+    },
+    "metric": [
+      "test"
+    ]
+  }
+}
